@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		29A51FC3EA0167135E7AC02E /* Pods_workTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77B576F0CA324D201347B2B3 /* Pods_workTest.framework */; };
 		8EDBC07D2B766235005B0220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDBC07C2B766235005B0220 /* AppDelegate.swift */; };
 		8EDBC07F2B766235005B0220 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDBC07E2B766235005B0220 /* SceneDelegate.swift */; };
-		8EDBC0812B766235005B0220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDBC0802B766235005B0220 /* ViewController.swift */; };
-		8EDBC0842B766235005B0220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDBC0822B766235005B0220 /* Main.storyboard */; };
+		8EDBC0812B766235005B0220 /* MotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDBC0802B766235005B0220 /* MotoViewController.swift */; };
+		8EDBC0842B766235005B0220 /* Moto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDBC0822B766235005B0220 /* Moto.storyboard */; };
 		8EDBC0862B766236005B0220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDBC0852B766236005B0220 /* Assets.xcassets */; };
 		8EDBC0892B766236005B0220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDBC0872B766236005B0220 /* LaunchScreen.storyboard */; };
+		8EDBC0942B76800C005B0220 /* InfoErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDBC0932B76800C005B0220 /* InfoErrorView.swift */; };
+		8EDBC0972B76803B005B0220 /* NibLoadadable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDBC0962B76803B005B0220 /* NibLoadadable.swift */; };
+		8EDBC0992B768067005B0220 /* InfoErrorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EDBC0982B768067005B0220 /* InfoErrorView.xib */; };
+		8EDBC09F2B78A2D8005B0220 /* MotoVC+STBFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDBC09E2B78A2D8005B0220 /* MotoVC+STBFunc.swift */; };
+		8EDBC0A12B78A46C005B0220 /* MotoVC+otherFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EDBC0A02B78A46C005B0220 /* MotoVC+otherFunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39A014BBEA16633CA673018E /* Pods-workTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workTest.release.xcconfig"; path = "Target Support Files/Pods-workTest/Pods-workTest.release.xcconfig"; sourceTree = "<group>"; };
+		64A61DCFB3725B059AAEB80F /* Pods-workTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-workTest.debug.xcconfig"; path = "Target Support Files/Pods-workTest/Pods-workTest.debug.xcconfig"; sourceTree = "<group>"; };
+		77B576F0CA324D201347B2B3 /* Pods_workTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_workTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDBC0792B766235005B0220 /* workTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = workTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EDBC07C2B766235005B0220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8EDBC07E2B766235005B0220 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8EDBC0802B766235005B0220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8EDBC0832B766235005B0220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EDBC0802B766235005B0220 /* MotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotoViewController.swift; sourceTree = "<group>"; };
+		8EDBC0832B766235005B0220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Moto.storyboard; sourceTree = "<group>"; };
 		8EDBC0852B766236005B0220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EDBC0882B766236005B0220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EDBC08A2B766236005B0220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EDBC0932B76800C005B0220 /* InfoErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoErrorView.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		8EDBC0962B76803B005B0220 /* NibLoadadable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibLoadadable.swift; sourceTree = "<group>"; };
+		8EDBC0982B768067005B0220 /* InfoErrorView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoErrorView.xib; sourceTree = "<group>"; };
+		8EDBC09E2B78A2D8005B0220 /* MotoVC+STBFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MotoVC+STBFunc.swift"; sourceTree = "<group>"; };
+		8EDBC0A02B78A46C005B0220 /* MotoVC+otherFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MotoVC+otherFunc.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				29A51FC3EA0167135E7AC02E /* Pods_workTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B0F554602625374AB2819D3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77B576F0CA324D201347B2B3 /* Pods_workTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		53B02879D32FDB94854CAD04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				64A61DCFB3725B059AAEB80F /* Pods-workTest.debug.xcconfig */,
+				39A014BBEA16633CA673018E /* Pods-workTest.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8EDBC0702B766235005B0220 = {
 			isa = PBXGroup;
 			children = (
 				8EDBC07B2B766235005B0220 /* workTest */,
 				8EDBC07A2B766235005B0220 /* Products */,
+				53B02879D32FDB94854CAD04 /* Pods */,
+				2B0F554602625374AB2819D3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,68 @@
 		8EDBC07B2B766235005B0220 /* workTest */ = {
 			isa = PBXGroup;
 			children = (
+				8EDBC0952B768027005B0220 /* Base */,
+				8EDBC0912B767FB7005B0220 /* NibViews */,
 				8EDBC07C2B766235005B0220 /* AppDelegate.swift */,
 				8EDBC07E2B766235005B0220 /* SceneDelegate.swift */,
-				8EDBC0802B766235005B0220 /* ViewController.swift */,
-				8EDBC0822B766235005B0220 /* Main.storyboard */,
+				8EDBC09A2B789C29005B0220 /* ViewControllers */,
+				8EDBC09B2B789C45005B0220 /* Storyboars */,
 				8EDBC0852B766236005B0220 /* Assets.xcassets */,
 				8EDBC0872B766236005B0220 /* LaunchScreen.storyboard */,
 				8EDBC08A2B766236005B0220 /* Info.plist */,
 			);
 			path = workTest;
+			sourceTree = "<group>";
+		};
+		8EDBC0912B767FB7005B0220 /* NibViews */ = {
+			isa = PBXGroup;
+			children = (
+				8EDBC0922B767FF3005B0220 /* General */,
+			);
+			path = NibViews;
+			sourceTree = "<group>";
+		};
+		8EDBC0922B767FF3005B0220 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				8EDBC0932B76800C005B0220 /* InfoErrorView.swift */,
+				8EDBC0982B768067005B0220 /* InfoErrorView.xib */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		8EDBC0952B768027005B0220 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8EDBC0962B76803B005B0220 /* NibLoadadable.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		8EDBC09A2B789C29005B0220 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8EDBC0802B766235005B0220 /* MotoViewController.swift */,
+				8EDBC09C2B789C57005B0220 /* Extensions */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8EDBC09B2B789C45005B0220 /* Storyboars */ = {
+			isa = PBXGroup;
+			children = (
+				8EDBC0822B766235005B0220 /* Moto.storyboard */,
+			);
+			path = Storyboars;
+			sourceTree = "<group>";
+		};
+		8EDBC09C2B789C57005B0220 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8EDBC09E2B78A2D8005B0220 /* MotoVC+STBFunc.swift */,
+				8EDBC0A02B78A46C005B0220 /* MotoVC+otherFunc.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8EDBC08D2B766236005B0220 /* Build configuration list for PBXNativeTarget "workTest" */;
 			buildPhases = (
+				6ABB0E26F8BFB0F2F2D090C9 /* [CP] Check Pods Manifest.lock */,
 				8EDBC0752B766235005B0220 /* Sources */,
 				8EDBC0762B766235005B0220 /* Frameworks */,
 				8EDBC0772B766235005B0220 /* Resources */,
+				8EDBC09D2B78A111005B0220 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -127,32 +216,80 @@
 			files = (
 				8EDBC0892B766236005B0220 /* LaunchScreen.storyboard in Resources */,
 				8EDBC0862B766236005B0220 /* Assets.xcassets in Resources */,
-				8EDBC0842B766235005B0220 /* Main.storyboard in Resources */,
+				8EDBC0842B766235005B0220 /* Moto.storyboard in Resources */,
+				8EDBC0992B768067005B0220 /* InfoErrorView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6ABB0E26F8BFB0F2F2D090C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-workTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EDBC09D2B78A111005B0220 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/SwiftLint/swiftlint\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8EDBC0752B766235005B0220 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EDBC0812B766235005B0220 /* ViewController.swift in Sources */,
+				8EDBC0812B766235005B0220 /* MotoViewController.swift in Sources */,
+				8EDBC0972B76803B005B0220 /* NibLoadadable.swift in Sources */,
+				8EDBC09F2B78A2D8005B0220 /* MotoVC+STBFunc.swift in Sources */,
+				8EDBC0A12B78A46C005B0220 /* MotoVC+otherFunc.swift in Sources */,
 				8EDBC07D2B766235005B0220 /* AppDelegate.swift in Sources */,
 				8EDBC07F2B766235005B0220 /* SceneDelegate.swift in Sources */,
+				8EDBC0942B76800C005B0220 /* InfoErrorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8EDBC0822B766235005B0220 /* Main.storyboard */ = {
+		8EDBC0822B766235005B0220 /* Moto.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				8EDBC0832B766235005B0220 /* Base */,
 			);
-			name = Main.storyboard;
+			name = Moto.storyboard;
 			sourceTree = "<group>";
 		};
 		8EDBC0872B766236005B0220 /* LaunchScreen.storyboard */ = {
@@ -203,7 +340,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -218,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -266,7 +403,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -275,7 +412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -287,6 +424,7 @@
 		};
 		8EDBC08E2B766236005B0220 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A61DCFB3725B059AAEB80F /* Pods-workTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,11 +433,11 @@
 				DEVELOPMENT_TEAM = 5KUG934SZ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = workTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = workTest;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = Moto.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Moto;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,6 +453,7 @@
 		};
 		8EDBC08F2B766236005B0220 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39A014BBEA16633CA673018E /* Pods-workTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,11 +462,11 @@
 				DEVELOPMENT_TEAM = 5KUG934SZ8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = workTest/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = workTest;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UILaunchStoryboardName = Moto.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Moto;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
